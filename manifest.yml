@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: CarDataManagementNodeRed1204
+  host: CarDataManagementNodeRed1204
+  disk_quota: 1024M
+  services:
+  - CarDataManagementNodeRed1204-cloudantNoSQLDB
+  - Internet of Things Platform-5m
